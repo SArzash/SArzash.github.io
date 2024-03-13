@@ -22,3 +22,8 @@ Interestingly, on the multicellular scale, it has also been shown that the behav
 	<img src="/assets/img/vertex.gif" width="50%" height="50%"><br/>
 	<center>Linear shear modulus versus the target shape index in a vertex model. The colorbar shows the shape index of cells. As we increase the target shape index, the tissue exhibits a transition from a solid-like to a fluid-like state.</center>
 </div>
+
+<div align='center'>
+	<img src="/assets/img/energy_barrier.gif" width="50%" height="50%"><br/>
+	<center>The energy barrier of T1 transitions in biological tissues. The solid-like tissues exhibit a finite energy barrier. For fluid-like states, this barrier vanishes.</center>
+</div>
