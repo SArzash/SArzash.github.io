@@ -15,15 +15,19 @@ Interestingly, on the multicellular scale, it has also been shown that the behav
 
 <div align='center'>
 	<img src="/assets/img/TriangularNetworkUnderShear.gif" width="50%" height="50%"><br/>
-	<center>A diluted triangular network with z=3.3 under a simple shear deformation. The differential shear modulus K becomes finite at a critical strain. The color bar shows the relative force on bonds. The bonds are modeled as Hookean springs.</center>
+	<!-- <center>A diluted triangular network with z=3.3 under a simple shear deformation. The differential shear modulus K becomes finite at a critical strain. The color bar shows the relative force on bonds. The bonds are modeled as Hookean springs.</center> -->
+	<div style="text-align: left; display: inline-block; max-width: 50%;">
+    A diluted triangular network with z=3.3 under a simple shear deformation. The differential shear modulus K becomes finite at a critical strain. The color bar shows the relative force on bonds. The bonds are modeled as Hookean springs.</div>
 </div>
 
 <div align='center'>
 	<img src="/assets/img/vertex.gif" width="50%" height="50%"><br/>
-	<center>Linear shear modulus versus the target shape index in a vertex model. The colorbar shows the shape index of cells. As we increase the target shape index, the tissue exhibits a transition from a solid-like to a fluid-like state.</center>
+	<!-- <center>Linear shear modulus versus the target shape index in a vertex model. The edge tensions are shown in red with a thickness proportional to their tension. As we increase the target shape index, the tissue exhibits a transition from a solid-like to a fluid-like state.</center> -->
+	<div style="text-align: left; display: inline-block; max-width: 50%;"> Linear shear modulus versus the target shape index in a vertex model. The edge tensions are shown in red with a thickness proportional to their tension. As we increase the target shape index, the tissue exhibits a transition from a solid-like to a fluid-like state.</div>
 </div>
 
 <div align='center'>
 	<img src="/assets/img/energy_barrier.gif" width="50%" height="50%"><br/>
-	<center>The energy barrier of T1 transitions in biological tissues. The solid-like tissues exhibit a finite energy barrier. For fluid-like states, this barrier vanishes.</center>
+	<!-- <center>The energy barrier of T1 transitions in biological tissues. The solid-like tissues exhibit a finite energy barrier. For fluid-like states, this barrier vanishes.</center> -->
+	<div style="text-align: left; display: inline-block; max-width: 50%;">The energy barrier of T1 transitions in biological tissues. The solid-like tissues exhibit a finite energy barrier. For fluid-like states, this barrier vanishes.</div>
 </div>
