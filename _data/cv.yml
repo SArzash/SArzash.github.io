@@ -4,9 +4,9 @@
     - name: Full Name
       value: Sadjad Arzash
     - name: Email
-      value: sarzash@syr.edu
+      value: sarzash3@gatech.edu
     - name: Address
-      value: 229E Physics Building, Syracuse University, Syracuse, NY
+      value: Howey Physics Bldg, Georgia Institute of Technology, Atlanta, GA
     #- name: Date of Birth
       #value: # 14th March 1879
     - name: Languages
@@ -16,8 +16,14 @@
   type: time_table
   contents:
     - title: Postdoctoral Researcher
+      institution: Department of Physics, Georgia Institute of Technology, Atlanta, GA
+      year: 2025-present
+      description:
+        - "Advisor: Prof. Shiladitya Banerjee"
+
+    - title: Postdoctoral Researcher
       institution: Department of Physics, Syracuse University, Syracuse, NY and University of Pennsylvania, Philadelphia, PA
-      year: 2022-present
+      year: 2022-2025
       description:
         - "Advisor: Prof. M. Lisa Manning and Prof. Andrea J. Liu"
 
