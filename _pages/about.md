@@ -3,16 +3,16 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: "Email: sarzash@syr.edu"
+subtitle: "Email: sarzash3@gatech.edu"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>229E Physics Building</p>
-    <p>Syracuse University</p>
-    <p>Syracuse, NY</p>
+    <p>Howey Physics Bldg</p>
+    <p>Georgia Institute of Technology</p>
+    <p>Atlanta, GA</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
