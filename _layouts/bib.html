@@ -43,38 +43,51 @@
                 {%- endif -%}
               {%- endfor -%}
             {%- endif -%}
-            
+            {%- assign author_mark = '' -%}
+            {%- if entry.equal_contrib -%}
+              {%- assign equal_contrib_list = entry.equal_contrib | split: ',' -%}
+              {%- for eq_name in equal_contrib_list -%}
+                {%- assign eq_name_clean = eq_name | strip -%}
+                {%- if author.last == eq_name_clean -%}
+                  {%- assign author_mark = '<sup>*</sup>' -%}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+
             {%- if forloop.length == 1 -%}
               {%- if author_is_self %}
-                <em>{{author.last}}, {{author.first}}</em>
+                <em>{{author.last}}, {{author.first}}</em>{{author_mark}}
               {%- else -%}
-                {{author.last}}, {{author.first}}
+                {{author.last}}, {{author.first}}{{author_mark}}
               {%- endif -%}
             {%- else -%}
               {%- unless forloop.last -%}
                 {% if author_is_self %}
-                  <em>{{author.last}}, {{author.first}}</em>,&nbsp;
+                  <em>{{author.last}}, {{author.first}}</em>{{author_mark}},&nbsp;
                 {%- else -%}
                   {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,&nbsp;
+                    <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>{{author_mark}},&nbsp;
                   {%- else -%}
-                    {{author.last}}, {{author.first}},&nbsp;
+                    {{author.last}}, {{author.first}}{{author_mark}},&nbsp;
                   {%- endif -%}
                 {%- endif -%}
               {%- else -%}
                 {% if author_is_self -%}
-                  and <em>{{author.last}}, {{author.first}}</em>
+                  and <em>{{author.last}}, {{author.first}}</em>{{author_mark}}
                 {% else -%}
                   {%- if coauthor_url -%}
-                    and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
+                    and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>{{author_mark}}
                   {% else -%}
-                    and {{author.last}}, {{author.first}}
+                    and {{author.last}}, {{author.first}}{{author_mark}}
                   {%- endif -%}
                 {%- endif -%}
               {%- endunless -%}
             {%- endif -%}
           {%- endfor %}
           </div>
+          {%- if entry.annotation %}
+          <div class="co-first">{{ entry.annotation }}</div>
+          {%- endif %}
 
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
@@ -109,13 +122,6 @@
           {%- endif %}
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
-          {%- endif %}
-          {%- if entry.pdf %}
-            {% if entry.pdf contains '://' -%}
-            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            {%- else -%}
-            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}

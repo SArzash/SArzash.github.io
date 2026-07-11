@@ -484,6 +484,12 @@ footer.sticky-bottom {
         min-width: 80px;
         max-width: 200px;
       }
+      img.preview {
+        aspect-ratio: 5 / 4;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+      }
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -516,9 +522,14 @@ footer.sticky-bottom {
           }
         }
         > em {
-          border-bottom: 1px solid;
+          font-weight: bold;
           font-style: normal;
         }
+      }
+      .co-first {
+        font-size: 0.8rem;
+        font-style: italic;
+        color: var(--global-theme-color);
       }
       .links {
         a.btn {

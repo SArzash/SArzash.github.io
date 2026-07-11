@@ -40,7 +40,10 @@ body.sticky-bottom-footer {
  * Publications
  ******************************************************************************/
 
-// TODO: redefine publications layout.
+// Space between the bio and the selected-papers section on the about page.
+.selected-papers {
+  margin-top: 3rem;
+}
 
 
 /*****************************************************************************
