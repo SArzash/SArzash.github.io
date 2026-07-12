@@ -8,11 +8,11 @@ middle_name:
 last_name: Arzash
 email: sarzash3@gatech.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Sadjad Arzash, postdoctoral researcher at the Georgia Institute of Technology, working at the interface of soft matter physics, biological physics, and machine learning: how biopolymer networks and living tissues learn, adapt, and remember.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  &copy; Sadjad Arzash. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: Sadjad Arzash, soft matter physics, biological physics, biophysics, machine learning, physical learning, mechanical memory, vertex model, epithelial mechanics, tissue mechanics, biopolymer networks, fiber networks, rigidity transition, morphogenesis, Georgia Tech
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -46,9 +46,9 @@ max_width: 900px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://sarzash.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -58,7 +58,7 @@ github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: https://scholar.google.com/citations?user=CbUlUYMAAAAJ&hl=en # your Google Scholar ID
+scholar_userid: CbUlUYMAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-8593-7964 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
