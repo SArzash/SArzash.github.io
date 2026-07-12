@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-How does a collection of living cells organize itself into a specific, **functional shape**, and do so **robustly**, despite noise, variability, and damage? To me, the emergence of such precise and reliable forms from many locally interacting cells is one of the most remarkable phenomena in nature, and uncovering its physical basis drives my research.
+How does a collection of living cells organize itself into a specific, **functional shape**, and do so **robustly**, despite noise, variability, and damage? To me, the emergence of such precise and reliable forms from many locally interacting agents is one of the most remarkable phenomena in nature, and uncovering its physical basis drives my research.
 
 I work at the interface of soft matter physics, biological physics, and machine learning. Using theory and computation, I study complex, disordered systems, from biopolymer networks to living tissues, through the lens of **learning**: I ask how systems with many internal degrees of freedom can store a memory of the forces they experience, tune their own mechanical properties, and be trained toward targeted functions. By borrowing ideas such as **optimization**, **overparameterization**, and **memory** from machine learning, I aim to build a physical theory of how living matter learns and adapts, and to turn that theory into the design of new materials that program their own behavior, connecting fundamental physics with **engineering**.
 
@@ -15,7 +15,7 @@ Biopolymer networks such as collagen are constantly under external and internal 
 
 On the multicellular scale, the mechanics of tissues can be captured by a transition between **solid-like and fluid-like** states set by cell geometry and motility. Deciphering these collective cell behaviors is central to embryonic development, cancer progression, and wound healing.
 
-In my recent work, I treat internal variables such as cell shape factors or junctional tensions as **tunable degrees of freedom**, and show how tissues and networks can adapt their own rigidity, store a memory of past forces, and be trained toward target functions. These results connect the physics of tunable matter with optimization and machine learning, and open a path toward materials whose mechanical response can be trained rather than fixed by design.
+In my recent work, I treat internal variables such as cell shape factors or junctional tensions as **tunable degrees of freedom**, and show how tissues can adapt their own rigidity, store a memory of past forces, and be trained toward target functions. These results connect the physics of tunable matter with optimization and machine learning, and open a path toward materials whose mechanical response can be trained rather than fixed by design.
 
 <div class="research-gallery">
   <figure>
