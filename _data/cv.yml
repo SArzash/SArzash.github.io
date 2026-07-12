@@ -48,3 +48,102 @@
     - title: B.Sc. in Petroleum Engineering
       institution: Sharif University of Technology, Tehran, Iran
       year: 2016
+
+- title: Invited Talks
+  type: time_table
+  contents:
+    - year: Apr 2025
+      title: "Epithelial Mechanics Through the Lens of Learning and Adaptation"
+      institution: "Syracuse University Research Computing Series"
+    - year: Dec 2024
+      title: "Rigidity of Epithelial Tissues as a Double Optimization Problem"
+      institution: "American Society for Cell Biology (ASCB), San Diego, CA"
+    - year: Sep 2024
+      title: "Epithelial Mechanics Through the Lens of Learning and Adaptation"
+      institution: "Center for Computational Biology, Flatiron Institute, New York, NY"
+    - year: Sep 2024
+      title: "Epithelial Mechanics Through the Lens of Learning and Adaptation"
+      institution: "Soft, Living, Active and Adaptive Matter (SLAAM) Seminar"
+    - year: Mar 2024
+      title: "Rigidity of Epithelial Tissues as a Learning Problem"
+      institution: "Biological Physics & Physical Biology Seminar"
+    - year: Mar 2024
+      title: "Biological Tissues Can Fluidize by Tuning Their Internal Degrees of Freedom"
+      institution: "APS March Meeting, Minneapolis, MN"
+    - year: Jun 2023
+      title: "Adding Learning Degrees of Freedom in Biological Tissues"
+      institution: "Physical Sciences Oncology Center at Penn, Philadelphia, PA"
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - year: 2025
+      title: "Tech to Teaching Program (Foundational Level)"
+      institution: "Center for Teaching and Learning, Georgia Institute of Technology"
+      description:
+        - "Certificate program preparing future faculty for college-level teaching."
+    - year: Spring 2023
+      title: "Guest Lecturer, Physics 215: Honors Introductory Physics I"
+      institution: "Syracuse University, Syracuse, NY"
+    - year: Jul 2023
+      title: "Co-instructor, Python Modeling (CAREER Pre-College Program)"
+      institution: "BioInspired Institute, Syracuse University"
+    - year: Spring 2018
+      title: "Teaching Assistant, Physico-chemical Hydrodynamics"
+      institution: "Rice University, Houston, TX"
+    - year: Fall 2017
+      title: "Teaching Assistant, Applied Mathematics for Chemical Engineers"
+      institution: "Rice University, Houston, TX"
+    - year: Spring 2017
+      title: "Teaching Assistant, Statistical Physics and Thermodynamics"
+      institution: "Rice University, Houston, TX"
+    - year: Fall 2016
+      title: "Teaching Assistant, Chemical Engineering Fundamentals"
+      institution: "Rice University, Houston, TX"
+    - year: Fall 2015
+      title: "Teaching Assistant, Reservoir Geophysics"
+      institution: "Sharif University of Technology, Tehran, Iran"
+
+- title: Mentoring Experience
+  type: time_table
+  contents:
+    - year: 2023-2024
+      title: "Research Mentor, Meagan Gonzalez (undergraduate)"
+      institution: "Tissue modeling, Department of Physics, Syracuse University"
+    - year: 2023-2024
+      title: "Research Mentor, Becka Terzakis (undergraduate)"
+      institution: "Tissue modeling, Department of Physics, University of Pennsylvania"
+    - year: 2022
+      title: "Research Mentor, two undergraduate students"
+      institution: "Pre-REU program (NSF REU), Department of Physics, Syracuse University"
+    - year: 2021
+      title: "Judge, Undergraduate Research Presentations"
+      institution: "Gulf Coast Undergraduate Research Symposium (GCURS), Rice University"
+
+- title: Professional Activities & Service
+  type: list
+  contents:
+    - "<strong>Referee:</strong> Physical Review Letters, PRX Life, Soft Matter, Physical Review E, Journal of Chemical Physics, npj Metamaterials, Soft Materials, International Journal of Solids and Structures"
+    - "<strong>Member:</strong> Society of Rheology; American Physical Society (DSOFT, DPOLY, DBIO)"
+    - "<strong>Postdoc Representative</strong>, Research Faculty Advisory Council, School of Physics, Georgia Tech (2025-present)"
+    - "<strong>Session Co-chair</strong> (three sessions), Global Physics Summit 2026, Denver, CO: Mechanics and Metamaterials; Collective Behaviors in Biology; Networks and Graphs in Biology"
+    - "<strong>Session Chair</strong>, Mechanisms of Learning and Adaptation in Cells and Tissues, Global Physics Summit 2025, Anaheim, CA"
+    - "<strong>Co-organizer</strong>, discussion panel on applying for postdoc positions, APS DSOFT (2024)"
+    - "<strong>Member</strong>, DSOFT Student Affairs Committee (2022-2025)"
+    - "<strong>Co-organizer</strong>, Soft and Biological Physics Seminars, Department of Physics, Syracuse University (2022-2023)"
+
+- title: Computational Skills
+  type: nested_list
+  contents:
+    - title: "Programming"
+      items:
+        - "C/C++, Python, JAX"
+    - title: "Scientific computing"
+      items:
+        - "Mathematica, MATLAB"
+    - title: "High-performance computing & tools"
+      items:
+        - "Slurm, HTCondor, Linux, Git"
+    - title: "Engineering software"
+      items:
+        - "Aspen Plus, AutoCAD"
