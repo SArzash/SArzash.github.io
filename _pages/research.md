@@ -23,7 +23,9 @@ In my recent work, I treat internal variables such as cell shape factors or junc
     <figcaption>A subisostatic fiber network (connectivity z = 3.3) sheared past its mechanical critical point. Initially floppy, the network rigidifies at a sharp critical strain, where forces concentrate along the paths that carry the load (color shows bond tension). These critical signatures explain the strain stiffening of collagen and other biopolymer gels. See more in <a href="https://doi.org/10.1039/D0SM00764A">Finite size effects in critical fiber networks</a>.</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/movie_mc.gif" alt="Fiber network rigidified by thermal fluctuations">
+    <video autoplay loop muted playsinline aria-label="Fiber network rigidified by thermal fluctuations">
+      <source src="/assets/img/movie_mc.mp4" type="video/mp4">
+    </video>
     <figcaption>Below the isostatic threshold, disordered fiber networks are mechanically unstable, yet biological gels remain rigid. Here I show that thermal fluctuations alone can stabilize such networks, a mechanism distinct from classical entropic elasticity. See more in <a href="https://doi.org/10.1103/PhysRevE.108.054403">Mechanical criticality of fiber networks at a finite temperature</a>.</figcaption>
   </figure>
   <figure>

@@ -127,7 +127,9 @@ blockquote {
   figure {
     margin: 0;
   }
-  img {
+  img,
+  video {
+    display: block;
     width: 100%;
     height: auto;
     border-radius: 5px;
