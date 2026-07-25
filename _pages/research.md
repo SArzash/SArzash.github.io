@@ -19,6 +19,18 @@ In my recent work, I treat internal variables such as cell shape factors or junc
 
 <div class="research-gallery">
   <figure>
+    <video autoplay loop muted playsinline aria-label="Construction and dilution of a Mikado fiber network">
+      <source src="/assets/img/mikado.mp4" type="video/mp4">
+    </video>
+    <figcaption>A Mikado network, named after the pick-up sticks game, is built by randomly dropping monodisperse fibers into a box and crosslinking them wherever they cross. As more fibers are added the network becomes isotropic, and we then dilute it to a target connectivity to mimic real fibrous materials such as collagen. The left panel tracks the average connectivity z during deposition and dilution, and the right panel shows the evolving distribution of fiber segment lengths. See more in <a href="https://doi.org/10.1039/D0SM00764A">Finite size effects in critical fiber networks</a>.</figcaption>
+  </figure>
+  <figure>
+    <video autoplay loop muted playsinline aria-label="Packing-derived three-dimensional fiber network under simple shear">
+      <source src="/assets/img/pd3d_shear.mp4" type="video/mp4">
+    </video>
+    <figcaption>To model fibrous materials in three dimensions, I build packing-derived networks: starting from a jammed packing of bidisperse spheres and extracting its contact network, whose connectivity sits near the isostatic value of 6. Randomly trimming bonds brings the network below this threshold, and applying simple shear reveals its rheology. As shown here, the shear modulus rises by orders of magnitude with strain, reproducing the strain stiffening seen in biopolymer networks. See more in <a href="https://doi.org/10.1103/PhysRevE.104.L022402">Shear-induced phase transition and critical exponents in three-dimensional fiber networks</a>.</figcaption>
+  </figure>
+  <figure>
     <img src="/assets/img/TriangularNetworkUnderShear.gif" alt="Diluted fiber network sheared through its mechanical critical point">
     <figcaption>A subisostatic fiber network (connectivity z = 3.3) sheared past its mechanical critical point. Initially floppy, the network rigidifies at a sharp critical strain, where forces concentrate along the paths that carry the load (color shows bond tension). These critical signatures explain the strain stiffening of collagen and other biopolymer gels. See more in <a href="https://doi.org/10.1039/D0SM00764A">Finite size effects in critical fiber networks</a>.</figcaption>
   </figure>
