@@ -22,7 +22,7 @@ In my recent work, I treat internal variables such as cell shape factors or junc
     <video autoplay loop muted playsinline aria-label="Convergent extension driven by a local active edge tension rule in a vertex model">
       <source src="/assets/img/ce_local.mp4" type="video/mp4">
     </video>
-    <figcaption>A local rule on active edge tensions in a vertex model drives convergent extension, the coordinated tissue elongation that shapes the body plan during development. Here each edge tension is tuned locally from the edge's own orientation and length, and this simple rule alone generates a convergent extensional flow. Viewing morphogenesis through the framework of tunable matter lets us uncover the simple local rules that biology uses to accomplish specific tasks. See more in <a href="https://www.biorxiv.org/content/10.1101/2025.11.06.687029v1">Epithelial convergent extension as a tuning process</a>.</figcaption>
+    <figcaption>A local rule on active edge tensions in a vertex model drives convergent extension, the coordinated tissue elongation that shapes the body plan during development. Here each edge tension is tuned locally from the edge's own orientation and length, and this simple rule alone generates a convergent extensional flow. Viewing morphogenesis through the framework of tunable matter lets us uncover the simple local rules that biology uses to accomplish specific tasks. See more in <a href="https://doi.org/10.1073/pnas.2532099123">Epithelial convergent extension as a tuning process</a>.</figcaption>
   </figure>
   <figure>
     <video autoplay loop muted playsinline aria-label="Vertex model tissue melting from solid to fluid">
